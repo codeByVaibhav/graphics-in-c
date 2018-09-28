@@ -31,7 +31,6 @@ float rotationZ[3][3] = {   {cos(0), -sin(0), 0},
 
 void draw(float x, float y, char *scr, char p, float xoff, float yoff);
 void drawline(float x1, float y1, float x2, float y2, char *scr, char p, float xoff, float yoff);
-void drawcircle(float x, float y, float z, char *scr, char p, float xoff, float yoff);
 void clearscr(char *scr);
 
 struct Vec3D{float x,y,z;};//--Vec3D STRUCT FOR STORING 3D COORDINATEDS--//
