@@ -71,10 +71,10 @@ int main(){
     // character to be printed on screen.
     char q = '*';
 
-//----------------------------------------RENDERING LOOP STARTS----------------------------------------------------------------------//
+
     float distance = 2;
     float z;
-    while(1){
+//---------------------------------------------MAKING CUBE---------------------------------------------------------------------------//    
                     cubeVertex[0].x = -cubeSize;    cubeVertex[1].x = -cubeSize;
                     cubeVertex[0].y = -cubeSize;    cubeVertex[1].y =  cubeSize;
                     cubeVertex[0].z =  cubeSize;    cubeVertex[1].z =  cubeSize;
@@ -90,6 +90,8 @@ int main(){
                     cubeVertex[6].x =  cubeSize;    cubeVertex[7].x =  cubeSize;
                     cubeVertex[6].y =  cubeSize;    cubeVertex[7].y = -cubeSize;
                     cubeVertex[6].z = -cubeSize;    cubeVertex[7].z = -cubeSize;
+//----------------------------------------RENDERING LOOP STARTS----------------------------------------------------------------------//
+    while(1){
 
         rotationX[1][1] = cos(angle); rotationX[1][2] = -sin(angle);    rotationX[2][1] = sin(angle); rotationX[2][2] = cos(angle);
         rotationY[0][0] = cos(angle); rotationY[0][2] = -sin(angle);    rotationY[2][0] = sin(angle); rotationY[2][2] = cos(angle);
