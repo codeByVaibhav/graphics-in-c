@@ -63,8 +63,6 @@ int main(){
     struct Vec3D cubeVertex[8];//--INITIAL 8 VERTICIES OF THE CUBE IS STORED IN cubeVertex---------//
     struct Vec3D resultf[8];   //--AFTER ROTATING AND PROJECTING RESULT IS STORED IN resultf---//
 
-//----------------------------------------RENDERING LOOP STARTS----------------------------------------------------------------------//
-
     // xoff and yoff is used for shifting the coordinate center where ever it is used int a function you can change them to see the effects.
     int xoff = 0;
     int yoff = 0;
@@ -79,9 +77,9 @@ int main(){
     struct Vec3D heart3[3600];
     struct Vec3D heartR[3600];
     double theta, r = 1;
-    int i=0;
+    int i = 0;
 
-    for(theta=0;theta<=360;theta+=0.1,i++){
+    for(theta = 0; theta <= 360; theta += 0.1, i++){
         heart[i].x = (16 * pow(r*sin(theta),3));
         heart1[i].x = (16 * pow(r*sin(theta),3));
 
@@ -91,7 +89,7 @@ int main(){
         heart[i].z = cubeSize;
         heart1[i].z = -cubeSize;
     }
-    i=0;
+    i = 0;
     for(theta=0;theta<=360;theta+=0.1,i++){
         heart2[i].x = cubeSize;
         heart3[i].x = -cubeSize;
@@ -102,8 +100,23 @@ int main(){
         heart2[i].z = (16 * pow(r*sin(theta),3));
         heart3[i].z = (16 * pow(r*sin(theta),3));
     }
+//---------------------------------------------MAKING CUBE---------------------------------------------------------------------------//    
+                    cubeVertex[0].x = -cubeSize;    cubeVertex[1].x = -cubeSize;
+                    cubeVertex[0].y = -cubeSize;    cubeVertex[1].y =  cubeSize;
+                    cubeVertex[0].z =  cubeSize;    cubeVertex[1].z =  cubeSize;
 
+                    cubeVertex[2].x =  cubeSize;    cubeVertex[3].x =  cubeSize;
+                    cubeVertex[2].y =  cubeSize;    cubeVertex[3].y = -cubeSize;
+                    cubeVertex[2].z =  cubeSize;    cubeVertex[3].z =  cubeSize;
 
+                    cubeVertex[4].x = -cubeSize;    cubeVertex[5].x = -cubeSize;
+                    cubeVertex[4].y = -cubeSize;    cubeVertex[5].y =  cubeSize;
+                    cubeVertex[4].z = -cubeSize;    cubeVertex[5].z = -cubeSize;
+
+                    cubeVertex[6].x =  cubeSize;    cubeVertex[7].x =  cubeSize;
+                    cubeVertex[6].y =  cubeSize;    cubeVertex[7].y = -cubeSize;
+                    cubeVertex[6].z = -cubeSize;    cubeVertex[7].z = -cubeSize;
+//----------------------------------------RENDERING LOOP STARTS----------------------------------------------------------------------//
     while(1){
                     cubeVertex[0].x = -cubeSize;    cubeVertex[1].x = -cubeSize;
                     cubeVertex[0].y = -cubeSize;    cubeVertex[1].y =  cubeSize;
