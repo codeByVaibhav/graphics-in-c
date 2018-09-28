@@ -70,8 +70,7 @@ int main(){
     double angle = 0;
     // character to be printed on screen.
     char q = '*';
-
-
+    // for perspective view.
     float distance = 2;
     float z;
 //---------------------------------------------MAKING CUBE---------------------------------------------------------------------------//    
@@ -106,7 +105,6 @@ int main(){
             z = (distance / (distance - resultf[i].z/40));
             projection[0][0] = z;
             projection[1][1] = z;
-
 
             matXvec3d(projection,    resultf[i], &resultf[i]);
         }
