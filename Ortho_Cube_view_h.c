@@ -125,22 +125,7 @@ int main(){
                     cubeVertex[6].z = -cubeSize;    cubeVertex[7].z = -cubeSize;
 //----------------------------------------RENDERING LOOP STARTS----------------------------------------------------------------------//
     while(1){
-                    cubeVertex[0].x = -cubeSize;    cubeVertex[1].x = -cubeSize;
-                    cubeVertex[0].y = -cubeSize;    cubeVertex[1].y =  cubeSize;
-                    cubeVertex[0].z =  cubeSize;    cubeVertex[1].z =  cubeSize;
-
-                    cubeVertex[2].x =  cubeSize;    cubeVertex[3].x =  cubeSize;
-                    cubeVertex[2].y =  cubeSize;    cubeVertex[3].y = -cubeSize;
-                    cubeVertex[2].z =  cubeSize;    cubeVertex[3].z =  cubeSize;
-
-                    cubeVertex[4].x = -cubeSize;    cubeVertex[5].x = -cubeSize;
-                    cubeVertex[4].y = -cubeSize;    cubeVertex[5].y =  cubeSize;
-                    cubeVertex[4].z = -cubeSize;    cubeVertex[5].z = -cubeSize;
-
-                    cubeVertex[6].x =  cubeSize;    cubeVertex[7].x =  cubeSize;
-                    cubeVertex[6].y =  cubeSize;    cubeVertex[7].y = -cubeSize;
-                    cubeVertex[6].z = -cubeSize;    cubeVertex[7].z = -cubeSize;
-
+     
         rotationX[1][1] = cos(angle); rotationX[1][2] = -sin(angle);    rotationX[2][1] = sin(angle); rotationX[2][2] = cos(angle);
         rotationY[0][0] = cos(angle); rotationY[0][2] = -sin(angle);    rotationY[2][0] = sin(angle); rotationY[2][2] = cos(angle);
         rotationZ[0][0] = cos(angle); rotationZ[0][1] = -sin(angle);    rotationZ[1][0] = sin(angle); rotationZ[1][1] = cos(angle);
