@@ -1,4 +1,12 @@
 /*
+===============================================
+ Title:  Orthographic projection of cube in cmd.
+ Author: Kumar Vaibhav
+ Date:   25 Sept 2018
+=================================================
+*/
+
+/*
         BEFORE COMPILING
 
         SET YOUR CONSOLE FONT TO CONSOLAS
