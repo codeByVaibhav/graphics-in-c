@@ -1,4 +1,12 @@
 /*
+===============================================
+ Title:  Orthographic projection of cube in cmd.
+ Author: Kumar Vaibhav
+ Date:   25 Sept 2018
+=================================================
+*/
+
+/*
         BEFORE COMPILING
 
         SET YOUR CONSOLE FONT TO CONSOLAS
@@ -34,7 +42,7 @@ void drawline(float x1, float y1, float x2, float y2, char *scr, char p, float x
 void drawcircle(float x, float y, float z, char *scr, char p, float xoff, float yoff);
 void clearscr(char *scr);
 
-struct Vec3D{float x,y,z;};//--Vec3D STRUCT FOR STORING 3D COORDINATEDS--//
+struct Vec3D{float x, y, z;};//--Vec3D STRUCT FOR STORING 3D COORDINATEDS--//
 void matXvec3d(float x[][3], struct Vec3D p, struct Vec3D *result);//--matXvec3d FUNCTION FOR MULTIPLYING A 3X3 MATRIX WITH A 3D VECTOR--//
 
 int screenWidth = 340;
