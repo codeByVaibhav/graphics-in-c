@@ -1,9 +1,12 @@
+// Copyright 2018 Vaibhav Sharma. Released under the MIT license.
+
 /*
-===============================================
- Title:  Orthographic projection of cube in cmd.
- Author: Kumar Vaibhav
- Date:   25 Sept 2018
-=================================================
+        BEFORE COMPILING.
+
+        SET YOUR CONSOLE FONT TO CONSOLAS.
+        FONT SIZE TO 5.
+        SCREEN WIDTH TO 340 (screenWidth).
+        SCREEN HEIGHT TO 120 (screenHeight).
 */
 
 /*
@@ -65,8 +68,6 @@ int main(){
     COORD coord = {};
     coord.X = 0;
     coord.Y = 0;
-
-    clearscr(screen);
 
     struct Vec3D cubeVertex[8];//--INITIAL 8 VERTICIES OF THE CUBE IS STORED IN cubeVertex---------//
     struct Vec3D resultf[8];   //--AFTER ROTATING AND PROJECTING RESULT IS STORED IN resultf---//
