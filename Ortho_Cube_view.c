@@ -1,10 +1,4 @@
-/*
-===============================================
- Title:  Orthographic projection of cube in cmd.
- Author: Kumar Vaibhav
- Date:   25 Sept 2018
-=================================================
-*/
+// Copyright 2018 Vaibhav Sharma. Released under the MIT license.
 
 /*
         BEFORE COMPILING.
