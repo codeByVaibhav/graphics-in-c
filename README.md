@@ -1,4 +1,4 @@
-# graphics-in-c
+# 3D Graphics-in-cmd using C.
 C programs for rendering 3D graphis in Command Prompt without using any Graphics Library.
         
         BEFORE COMPILING AND RUNNING PROGRAM.
