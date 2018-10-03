@@ -51,7 +51,7 @@ int screenWidth = 340;
 int screenHeight = 120;
 
 int main(){
-    system("mode con: cols=120 lines=40");
+    system("mode con: cols=340 lines=120");
     system("color 3");
 
     char screen[screenWidth*screenHeight];
