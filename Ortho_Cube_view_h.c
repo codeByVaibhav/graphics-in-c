@@ -9,14 +9,6 @@
         SCREEN HEIGHT TO 120 (screenHeight).
 */
 
-/*
-        BEFORE COMPILING
-
-        SET YOUR CONSOLE FONT TO CONSOLAS
-        FONT SIZE TO 5
-        SCREEN WIDTH TO 340 (screenWidth)
-        SCREEN HEIGHT TO 120 (screenHeight)
-*/
 #include <windows.h>
 #include <stdio.h>
 #include <math.h>
