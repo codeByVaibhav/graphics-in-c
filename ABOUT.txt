@@ -2,9 +2,10 @@ This is a basic 3D rendering program to project points in 3D space to a 2D scree
 I have projected a cube and a cube with heart on its sides in orthographic view ;).
 and also a cube in perspective view.
 
-I am also going to project a Tesseract (a 4D cube) in cmd without any graphics library just using ASCII chars in cmd window.
-
-It seems quite challanging.
-it's not just some matrix math.
-
 do your own projections with this code or anything u like.
+
+
+Later..
+
+
+I am also going to project a Tesseract (a 4D cube) in cmd without any graphics library just using ASCII chars in cmd window.
