@@ -61,8 +61,6 @@ int main(){
     coord.X = 0;
     coord.Y = 0;
 
-    clearscr(screen);
-
     struct Vec3D cubeVertex[8];//--INITIAL 8 VERTICIES OF THE CUBE IS STORED IN cubeVertex---------//
     struct Vec3D resultf[8];   //--AFTER ROTATING FINAL RESULT IS STORED IN resultf---//
 
