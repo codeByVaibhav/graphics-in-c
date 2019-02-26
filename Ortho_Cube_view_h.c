@@ -4,7 +4,7 @@
         BEFORE COMPILING.
 
         SET YOUR CONSOLE FONT TO CONSOLAS.
-        FONT SIZE TO 5.
+        FONT SIZE TO 8.
 */
 
 #include <windows.h>
@@ -39,11 +39,11 @@ void clearscr(char *scr);
 struct Vec3D{float x,y,z;};//--Vec3D STRUCT FOR STORING 3D COORDINATEDS--//
 void matXvec3d(float x[][3], struct Vec3D p, struct Vec3D *result);//--matXvec3d FUNCTION FOR MULTIPLYING A 3X3 MATRIX WITH A 3D VECTOR--//
 
-int screenWidth = 340;
-int screenHeight = 120;
+int screenWidth = 240;
+int screenHeight = 80;
 
 int main(){
-    system("mode con: cols=340 lines=120");
+    system("mode con: cols=240 lines=80");
     system("color 3");
 
     char screen[screenWidth*screenHeight];
@@ -67,7 +67,7 @@ int main(){
     // xoff and yoff is used for shifting the coordinate center where ever it is used int a function you can change them to see the effects.
     int xoff = 0;
     int yoff = 0;
-    int cubeSize = 30;
+    int cubeSize = 25;
     double angle = 0;
     // character to be printed on screen.
     char q = 219;
