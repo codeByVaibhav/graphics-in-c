@@ -4,7 +4,7 @@
         BEFORE COMPILING.
 
         SET YOUR CONSOLE FONT TO CONSOLAS.
-        FONT SIZE TO 5.
+        FONT SIZE TO 8.
 */
 #include <windows.h>
 #include <stdio.h>
@@ -39,11 +39,11 @@ struct Vec3D{float x, y, z;};//--Vec3D STRUCT FOR STORING 3D COORDINATEDS--//
 
 void matXvec3d(float x[][3], struct Vec3D p, struct Vec3D *result);//--matXvec3d FUNCTION FOR MULTIPLYING A 3X3 MATRIX WITH A 3D VECTOR--//
 
-int screenWidth = 340;
-int screenHeight = 120;
+int screenWidth = 240;
+int screenHeight = 80;
 
 int main(){
-    system("mode con: cols=340 lines=120");
+    system("mode con: cols=240 lines=80");
     system("color 3");
 
     char screen[screenWidth*screenHeight];
