@@ -1,4 +1,4 @@
-# 3D Graphics-in-cmd using C.
+# 3D Cube in console using C.
 C programs for rendering 3D graphics in Command Prompt without using any Graphics Library.
 
 In order to run the game properly:-
