@@ -12,3 +12,9 @@ In Code::Blocks goto -> Settings -> Compiler and then check the box with option 
 OR
 
 Change the code to work with C89.
+
+# Note
+This project will only work in windows platform as i have used windows library for changing screen buffer.
+for the program to run properly you have to mannually change the command promt font to consolas and font size to 5.
+change the code as u like.
+
